@@ -1,0 +1,321 @@
+<!--pages/classroom/classroom.wxml-->
+
+<!-- set search option -->
+<view>
+
+  <view>
+    <view class='title'>
+      课程信息查询
+    </view>
+    <view class='content'>
+      空闲的时候去上上别的课也不错。
+    </view>
+  </view>
+
+  <view class='space'></view>
+  <view class='option-box'>
+    <view class='option-item option-active'>南昌校区</view>
+    <view class='option-item'>南昌枫林</view>
+    <view class='option-item'>抚州本部</view>
+    <view class='option-item'>抚州北区</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item'>周一</view>
+    <view class='option-item  option-active'>周二</view>
+    <view class='option-item'>周三</view>
+    <view class='option-item'>周四</view>
+    <view class='option-item'>周五</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item'>1-2节</view>
+    <view class='option-item option-active'>3-4节</view>
+    <view class='option-item'>5-6节</view>
+    <view class='option-item'>7-8节</view>
+    <view class='option-item'>9-X节</view>
+  </view>
+
+
+  <view class='option-box'>
+    <view class='option-item' style='flex-grow: 1;'>部门</view>
+    <view class='option-item' hover-class='option-active' style='flex-grow: 3; background-color: ;'>请选择开课部门＞</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item' style='flex-grow: 1; '>课程</view>
+    <view class='option-item' style='flex-grow: 3; padding: 3vw;background-color: ;'>
+      <input class="option-input" maxlength='10' placeholder='课程名称选填'></input>
+    </view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item' style='flex-grow: 1;'>教师</view>
+    <view class='option-item' style='flex-grow: 3; padding: 3vw;'>
+      <input class="option-input" maxlength='10' placeholder='教师姓名选填'></input>
+    </view>
+  </view>
+
+  <view class='content' style='margin-top: 4vw;'>
+    2017-2018第一学期
+  </view>
+
+  <view style='margin: 4vw;'>
+    <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+    <view class='btn' hover-class='btn-hover'>确定</view>
+  </view>
+
+
+
+</view>
+
+<!-- academy list -->
+<view class='mask' hidden></view>
+<view class='ac-box' hidden>
+
+  <view class='item0 item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>全</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>全部</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>软</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>软件学院</view>
+    </view>
+  </view>
+
+  <view class='item0' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index0'>外</view>
+    </view>
+    <view class=''>
+      <view class='item-title0'>外国语学院</view>
+    </view>
+  </view>
+
+
+  <!-- <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>1</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view> -->
+
+
+
+</view>
+
+
+
+<!-- result -->
+<view class='box' hidden>
+  <view style='margin: 8vw 0vw 8vw 0vw;'>
+    <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+    <view class='btn' hover-class='btn-hover'>重新查找</view>
+  </view>
+
+  <!-- <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>无</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-title'>暂无数据</view>
+      <view class='item-date'>好像还什么都没有</view>
+    </view>
+  </view> -->
+
+  <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>888</view>
+    </view>
+    <view class='item-right'>
+      <view class='info-title'>马克思主义和社会主义理论体系</view>
+
+      <view class='info-detail' style='background-color: #f29500;'>马克思*恩格斯</view>
+      <view class='info-detail' style='background-color: #6fa014;'>周五</view>
+      <view class='info-detail' style='background-color: #0097aa;'>1-2节</view>
+      <view class='info-detail' style='background-color: #be213e;'>3号教学楼</view>
+      <view class='info-detail' style='background-color: #94c849;'>3-308</view>
+      <view class='info-detail' style='background-color: #3b5b99;'>12-18周上</view>
+
+      <view class='info-detail' style='background-color: #c23916;'>水资源与环境工程学院水资源与环境工程学院水资源与环境工程学院</view>
+
+      <view class='info-detail' style='background-color: #3c7780;'>南昌校区</view>
+
+    </view>
+  </view>
+
+
+  <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>1</view>
+    </view>
+    <view class='item-right'>
+      <view class='info-title'>软件工程</view>
+
+      <view class='info-detail' style='background-color: #f29500;'>图灵*</view>
+      <view class='info-detail' style='background-color: #6fa014;'>周五</view>
+      <view class='info-detail' style='background-color: #0097aa;'>9-10节</view>
+      <view class='info-detail' style='background-color: #be213e;'>核工楼</view>
+      <view class='info-detail' style='background-color: #94c849;'>308</view>
+      <view class='info-detail' style='background-color: #3b5b99;'>12-18周上</view>
+
+      <view class='info-detail' style='background-color: #c23916;'>软件学院</view>
+
+      <view class='info-detail' style='background-color: #3c7780;'>南昌校区</view>
+    </view>
+  </view>
+  <!-- <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>1</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-title'>3-308</view>
+      <view class='item-date'>多媒体教室</view>
+    </view>
+  </view> -->
+
+
+</view>

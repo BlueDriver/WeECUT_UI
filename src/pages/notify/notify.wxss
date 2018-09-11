@@ -1,0 +1,2 @@
+/* pages/notify/notify.wxss */
+@import '../jobList/jobList.wxss';

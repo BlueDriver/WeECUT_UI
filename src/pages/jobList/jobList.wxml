@@ -1,0 +1,74 @@
+<!--pages/jobList/jobList.wxml-->
+<view>
+  <view class='title'>
+    校园招聘
+  </view>
+  <view class='content'>
+    所有招聘信息均摘自东华理工大学就业网。
+  </view>
+  
+  <view class='box'>
+
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index' >无</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>暂无数据</view>
+        <view class='item-date'>今天</view>
+      </view>
+    </view>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>1</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>10</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>88</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>100</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>888</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view>
+
+  </view>
+</view>

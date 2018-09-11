@@ -1,0 +1,36 @@
+<!--pages/notify/notify.wxml-->
+<!--pages/jobList/jobList.wxml-->
+<view>
+  <view class='title'>
+    通知
+  </view>
+  <view class='content'>
+    来自系统的通知。
+  </view>
+  <view class='box'>
+
+    <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>无</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>暂时没有通知</view>
+        <view class='item-date'>今天</view>
+      </view>
+    </view>
+
+
+    <!-- <view class='item' hover-class='item-hover'>
+      <view class='item-left'>
+        <view class='item-index'>1</view>
+      </view>
+      <view class='item-right'>
+        <view class='item-title'>建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰建造航空母舰</view>
+        <view class='item-date'>2018-9-8</view>
+      </view>
+    </view> -->
+
+
+
+  </view>
+</view>

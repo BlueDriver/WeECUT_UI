@@ -1,0 +1,20 @@
+<!--pages/login/login.wxml-->
+<view class='title'>
+  LOGIN
+</view>
+<view class='content'>
+  使用学号和密码登录教务系统以获得所有功能。
+</view>
+<view class='space'></view>
+
+<view class='input-box'>
+  <input bindinput="" value="{{}}" maxlength='12' type="number" class="login-input" placeholder-class="login-input-p" placeholder="学号" />
+  <input maxlength='24' bindinput="" value="{{}}" type="password" class="login-input" placeholder-class="login-input-p" placeholder="密码" />
+
+  <view class='space'></view>
+  <view style='margin-top: 4vw;'>
+    <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+    <view class='btn' hover-class='btn-hover'>登录</view>
+  </view>
+
+</view>

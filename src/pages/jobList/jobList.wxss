@@ -1,0 +1,46 @@
+/* pages/jobList/jobList.wxss */
+@import '../help/help.wxss';
+
+.box {
+  /* background-color: pink; */
+  margin: 4vw 0vw 4vw 4vw;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1vw;
+}
+
+.item-index {
+  background-color: #3e3f3a;
+  color: #fff;
+  font-size: 6vw;
+  width: 14vw;
+  height: 14vw;
+  line-height: 6vw;
+  padding: 4vw 0vw;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item-title {
+   /* background-color: blue;  */
+  font-size: 5vw;
+  line-height: 5vw;
+  padding: 2vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 82vw;
+}
+
+.item-date {
+  /* background-color: yellow; */
+  font-size: 4vw;
+  line-height: 3vw;
+  padding: 0vw 0vw 1vw 2vw;
+}

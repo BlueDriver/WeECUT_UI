@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/more/more",
+    "pages/help/help",
+    "pages/log/log",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/courseTable/courseTable",
+    "pages/score/score",
+    "pages/judge/judge",
+    "pages/jobList/jobList",
+    "pages/jobList/jobDetail/jobDetail",
+    "pages/note/note",
+    "pages/notify/notify",
+    "pages/classroom/classroom",
+    "pages/courseSearch/courseSearch"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"ligtht",
+    "navigationBarBackgroundColor": "#1c1c1c",
+    "navigationBarTitleText": "WeECUT",
+    "navigationBarTextStyle":"white"
+  }
+}

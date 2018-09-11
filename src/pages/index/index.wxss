@@ -1,0 +1,141 @@
+/* pages/index/index.wxss */
+
+.view-hover {
+  transform: rotateX(90deg);
+  background: aqua;
+}
+
+.box {
+  padding: 4vw 0vw 0vw 4vw;
+  /* background-color: #598; */
+  background-color: #111111;
+}
+
+.grid44 {
+  width: 28vw;
+  height: 28vw;
+  margin: 0px 4vw 4vw 0px;
+  background-color: pink;
+}
+
+.grid84 {
+  width: 60vw;
+  height: 28vw;
+  margin: 0px 4vw 4vw 0px;
+  background-color: pink;
+}
+
+.grid104 {
+  width: 76vw;
+  height: 28vw;
+  margin: 0px 4vw 4vw 0px;
+  background-color: pink;
+}
+
+.grid88 {
+  width: 60vw;
+  height: 60vw;
+  margin: 0px 4vw 4vw 0px;
+  background-color: pink;
+}
+
+.grid22 {
+  width: 12vw;
+  height: 12vw;
+  margin: 0px 4vw 4vw 0px;
+  background-color: pink;
+}
+
+.t-info {
+  /* background-color: red;  */
+  background: rgba(6, 6, 6, 0.4);
+  width: 100%;
+  bottom: 0rpx;
+  margin-top: -6vw;
+  display: block;
+  padding: 0vw 1vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 6vw;
+}
+
+.t-name {
+  /* background-color: red;  */
+  color: #fff;
+  font-size: 12vw;
+  line-height: 12vw;
+  padding: 4vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 20vw;
+}
+
+.t-tip {
+  /* background-color: blue;  */
+  color: #fff;
+  font-size: 4vw;
+  line-height: 4vw;
+  padding: 0vw 4vw 4vw 4vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 8vw;
+}
+
+.icon {
+  width: 10vw;
+  height: 10vw;
+  padding: 9vw 9vw 2vw 9vw;
+}
+.icon-s{
+  width: 8vw;
+  height: 8vw;
+  padding: 2vw;
+}
+.func-text {
+  /* background: red; */
+  font-size: 4vw;
+  line-height: 4vw;
+  color: #fff;
+  padding: 1vw;
+  height: 6vw;
+}
+
+@keyframes move_bg {
+  0% {
+    background-position: 10% 10%;
+  }
+
+  25% {
+    background-position: 80% 10%;
+  }
+
+  50% {
+    background-position: 80% 80%;
+  }
+
+  75% {
+    background-position: 10% 80%;
+  }
+
+  100% {
+    background-position: 10% 10%;
+  }
+}
+
+.move-bg {
+  /* background-size: 28vw 28vw; */
+  animation: move_bg 8s infinite linear;
+}
+
+
+.foot-text{
+  color: #fff;
+  text-align: right;
+  /* background-color: pink; */
+  width: 100%;
+  padding: 0vw 4vw 4vw 4vw;
+  font-size: 4vw;
+}

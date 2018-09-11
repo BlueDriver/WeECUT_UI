@@ -1,0 +1,125 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.5",
+	"appid": "",
+	"projectname": "ckb_metro",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 13,
+			"list": [
+				{
+					"id": -1,
+					"name": "more",
+					"pathName": "pages/more/more",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "help",
+					"pathName": "pages/help/help",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "log",
+					"pathName": "pages/log/log",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "feedback",
+					"pathName": "pages/feedback/feedback",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "courseTable",
+					"pathName": "pages/courseTable/courseTable",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "score",
+					"pathName": "pages/score/score",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "judge",
+					"pathName": "pages/judge/judge",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "jobList",
+					"pathName": "pages/jobList/jobList",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "jobDetail",
+					"pathName": "pages/jobList/jobDetail/jobDetail",
+					"query": "url=http://jyb.ecut.edu.cn/e8/52/c4196a59474/page.htm"
+				},
+				{
+					"id": -1,
+					"name": "note",
+					"pathName": "pages/note/note",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "notify",
+					"pathName": "pages/notify/notify",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "classroom",
+					"pathName": "pages/classroom/classroom",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "courseSearch",
+					"pathName": "pages/courseSearch/courseSearch",
+					"query": "url=http://jyb.ecut.edu.cn/e8/52/c4196a59474/page.htm"
+				}
+			]
+		}
+	}
+}

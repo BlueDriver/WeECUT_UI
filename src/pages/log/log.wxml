@@ -1,0 +1,11 @@
+<!--pages/log/log.wxml-->
+<view class='title'>
+  DEV LOG
+</view>
+<view class='content'>
+  2018年9月7日22:28 哈哈哈拉看风景啊
+</view>
+<view class='space'></view>
+<view class='content'>
+  2018年9月7日22: 哈哈哈的客机啊
+</view>

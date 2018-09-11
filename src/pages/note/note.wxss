@@ -1,0 +1,265 @@
+/* pages/util_home/note/note.wxss */
+page{
+  /* background-color: #efeef3; */
+  background-color: #fff;
+  width: 100%;
+  height: 100%; 
+  overflow-x: hidden;
+}
+.div{
+  width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  background-color:;
+}
+.top{
+  height: 90px;
+  background-color: #111111;
+  position: relative;
+  top: -100px;
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+.triangle{
+  height: 100px;
+  width: 110%;
+  transform-origin: 0% 100%;
+  transform: rotateZ(-13deg);
+  background-color: #111111;
+  position: relative;
+  top: 90px;  
+}
+.box1{
+  width: 25%;
+  display: inline-block;
+ 
+  box-sizing: border-box;
+}
+.box-head{
+  text-align: center;
+  
+}
+.box-bottom{
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  
+}
+.top-img{
+  width: 48px;
+  height: 48px;  
+}
+.add-img{
+  width: 48px;
+  height: 48px;
+  transform: rotateZ(13deg);
+  position: relative;
+  left: 10%;
+  top: 30px;  
+}
+.tip-box{
+  /* outline: 1px solid blue; */
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  color: #fff;
+  height: 90px;
+  z-index: 100;
+  background: ;  
+}
+.tips{
+  color: #fff;
+  font-size: 12px; 
+  display: block;
+  padding-left: 5%;
+  margin-top: 10px;
+  outline: green;
+}
+.mine{
+  color: #000;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  z-index: 101;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+.count{
+  font-size: 36px;
+  font-style: italic;
+}
+.item{
+  /* background: pink; */
+  margin-top: 10px;
+  width: 92%;  
+  margin-left:4%;
+  position: relative;
+}
+.index-box{
+  display: block;
+  width: 40px;
+  height: 40px;
+  /* outline: 1px solid blue; */
+  text-align: center;    
+  /* border-radius: 22px 0px 0px 22px; */
+  /* border-radius: 50%; */
+  background: #555555;
+  color:#fff;
+  /* float: left; */
+}
+.index{
+  /* position: relative; */
+  top: 0px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.content-box{  
+  border-radius: 5px;
+  display: block;
+  outline: 1px solid #555555;
+  margin-left: 45px;
+  /* background: #fff; */
+  color: #1c1c1c;
+  margin-top: -40px;
+  overflow-y: auto;
+  transition: all 0.1s;
+  /* float: right; */
+}
+.content-box-a{
+  outline: 1px solid #317dd5;
+  color: #317dd5;
+}
+.content{ 
+  display: block;
+  /* outline: 1px solid red;   */
+  padding: 5px;
+  word-break: break-all;
+}
+.time{
+  float: right;
+  display: block;
+  font-size: 10px;
+  padding: 0px 10px 5px 0px;
+}
+
+.add{
+  position: fixed;
+  right: 10%;
+  /* margin-right: -20px; */
+  bottom: 10%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 0px 0px 2px #fff;
+  transform: rotate(0deg);
+  transition: all 0.2s;
+  z-index: 109;
+  padding: 10px;
+  background-color: #111111;
+}
+.add:active{
+  /* transform: rotate(135deg); */
+}
+
+.mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 108;
+  background-color: #000;
+  opacity: 0.6;
+}
+.add-box{
+  background-color: #111111;
+  z-index: 120;
+  position: fixed;
+  width: 80%;
+  top: -400px;
+  left: 10%;
+  border: 1rpx solid #fff;
+  height: 344px;
+  /* background: gold;   */
+  /* box-shadow: 0 0 0 2px #fff; */
+  overflow-y: auto;
+}
+
+.note-top{
+  height: 254px;
+   /* background: blue;  */
+  /* outline: 1px soild black; */
+}
+.note-bottom{
+  padding: 10px 10px;
+  /* height: 44px; */
+   /* background: green;  */
+}
+.title{
+  height: 26px;  
+  line-height: 22px;
+  padding: 4px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  background-color: #555555;
+  /* background: linear-gradient(-130deg,#fff, #f2484b); */
+  /* background: blue; */
+}
+.note-box{
+  /* background: yellow; */
+  /* outline: 1px solid red; */
+  height: 254px;  
+  border-bottom: 1px dashed #fff;
+  padding: 10px;
+}
+.textarea{
+  /* background: red; */
+  width: 100%;
+  height: 234px;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.textarea-p{
+  color: #fff;
+  font-size: 14px;
+}
+.text-count{
+  position: relative;
+  font-size: 10px;
+  color: #fff;
+  top: -16px;
+  float: right;
+  background: #555555;
+  z-index: 666;
+  border-radius: 8px;
+  padding: 0 4px;
+}
+.btn{
+  /* margin-top: -26px; */
+  color: #fff;
+  width: 100%;
+   background: #000; 
+  font-size: 5vw;
+  line-height: 5vw;
+  padding: 2vw;
+  transition: all 0.1s;
+  border: 1vw solid #fff;
+  /* background: #f2484b; */
+  
+}
+.btn-a{
+  /* background: #d81e06; */
+  background: #317dd5;
+}
+.empty-img{
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  bottom: 30%;
+  left: 50%;
+  margin-left: -32px;
+}

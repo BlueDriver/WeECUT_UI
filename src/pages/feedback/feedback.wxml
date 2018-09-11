@@ -1,0 +1,16 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='title'>
+  FEEDBACK
+</view>
+<view class='content'>
+  为了更好地服务广大师生朋友，欢迎您积极向我们提交反馈！
+</view>
+<view class='space'></view>
+
+<textarea class="text-area" placeholder-class='p-text' placeholder="输入的问题或意见" maxlength='200' value='{{content}}' />
+
+<view class='space'></view>
+<view style='padding: 4vw;'>
+  <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+  <view class='btn' hover-class='btn-hover'>确定</view>
+</view>

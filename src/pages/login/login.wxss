@@ -1,0 +1,19 @@
+/* pages/login/login.wxss */
+@import '../feedback/feedback.wxss';
+
+.input-box{
+  padding: 4vw;
+}
+
+.login-input {
+  /* background-color: #fff; */
+  color: #fff;
+  border-bottom: 1rpx solid #f6f6f6;
+  font-size: 5vw;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+.login-input-p {
+  color: #fff;
+}

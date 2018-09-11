@@ -1,0 +1,33 @@
+/* pages/feedback/feedback.wxss */
+@import '../help/help.wxss';
+
+.text-area {
+  border: 1rpx solid #fff;
+  width: 90vw;
+  margin: 0vw 4vw;
+  color: #fff;
+  padding: 1vw;
+}
+
+.p-text {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border: 1vw solid #fff;
+  background-color: #000;
+  display: inline-block;
+  font-size: 6vw;
+  line-height: 6vw;
+  padding: 2vw 15vw;
+}
+
+.btn-hover {
+  /* color: #000; */
+  background-color: #317dd5;
+}
+
+/* .btn:last-child{
+  margin-left: 4vw;
+} */

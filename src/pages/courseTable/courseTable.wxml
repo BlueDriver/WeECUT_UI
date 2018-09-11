@@ -1,0 +1,190 @@
+<!--pages/courseTable/courseTable.wxml-->
+<!-- <scroll-view scroll-y style="height:100%;"> -->
+<view class="mask" wx:if="{{mask}}"></view>
+<view class='table'>
+  <!-- <view class='tr-h classT-h'>    
+    <view class='term-l' bindtap="changeTerm">{{termArray.termString}}▼</view>
+    <view class='class-r' bindtap="changeClass">{{classNum}}▼</view>
+  </view> -->
+  <view class='tr-h'>
+    <view class='thead thead-now'>
+      <text>周一</text>
+    </view>
+    <view class='thead'>
+      <text>周二</text>
+    </view>
+    <view class='thead'>
+      <text>周三</text>
+    </view>
+    <view class='thead'>
+      <text>周四</text>
+    </view>
+    <view class='thead'>
+      <text>周五</text>
+    </view>
+  </view>
+  <view style="height: 23px;"></view>
+  <block wx:for="{{week}}" wx:for-item="time" wx:for-index="row" wx:key="week">
+    <view wx:if="{{row%2==0}}" class='tr-2' >
+      <block wx:for="{{time.time}}" wx:for-item="day" wx:key="{{row}}">
+        <view class='td' >
+          <block wx:for="{{day.day}}" wx:for-item="class" wx:key="this">
+            <view class="box" wx:if="{{class !=''}}">
+              {{class}}
+            </view>
+          </block>
+        </view>
+      </block>
+    </view>
+    <view wx:else class='tr-1' >
+      <block wx:for="{{time.time}}" wx:for-item="day" wx:key="{{row}}">
+        <view class='td' >
+          <block wx:for="{{day.day}}" wx:for-item="class" wx:key="this" >
+            <view class="box" wx:if="{{class !=''}}">
+              {{class}}
+            </view>
+          </block>
+        </view>
+      </block>
+    </view>
+
+    <view wx:if="{{row==1}}" class='tr rest'>
+      午休
+    </view>
+    <view bindlongpress="dinner" wx:if="{{row==3}}" class='tr rest'>
+      晚饭
+    </view>
+    
+    
+  </block>
+  <view wx:if="{{ week.length == 0}}" style='margin-top:40%; text-align:center; color: #ff1d77;'>还未登录！</view>
+  <!-- 
+  <view class='tr-1'>
+    <view class='td'>
+      <view class="box">
+        计算机通信与网络_01(南昌校区3号教学楼,3-204,汤宇,7-18周上)
+      </view>      
+    </view>
+    <view class='td'>
+      <view class="box">
+        JEE程序设计_01(南昌校区3号教学楼,3-302,Manikandaangel,10-17周上)
+      </view>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>
+    </view>
+    <view class='td'>
+      <view class="box">
+        Visual C++程序设计_01(南昌校区3号教学楼,3-204,刘琳,3-9周上)
+      </view>
+    </view>
+    <view class='td'>
+      <view class="box">
+         ARM体系结构_01(南昌校区3号教学楼,3-302,邹云康,3-12周上)
+      </view>
+    </view>
+    <view class='td'>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>
+      <view class="box">
+        可视化建模与UML_01(南昌校区3号教学楼,3-206,汪宇玲,13-19周上)
+      </view>
+    </view>
+  </view>
+
+  <view class='tr-2'>
+    <view class='td'>
+      <view class="box">
+        计算机通信与网络_01(南昌校区3号教学楼,3-204,汤宇,7-18周上)
+      </view>      
+    </view>
+    <view class='td'>
+      <view class="box">
+        JEE程序设计_01(南昌校区3号教学楼,3-302,汪雪元,10-17周上)
+      </view>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>  
+    </view>
+    <view class='td'>
+      <view class="box">
+        Visual C++程序设计_01(南昌校区3号教学楼,3-204,刘琳,3-9周上)
+      </view>
+    </view>
+    <view class='td'>        
+    </view>
+    <view class='td'>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>      
+    </view>
+  </view>
+  
+  <view class='tr'>
+    午休
+  </view>
+
+  <view class='tr-2'>
+    <view class='td'>
+         
+    </view>
+    <view class='td'>     
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>      
+    </view>
+    <view class='td'>
+      <view class="box">
+        Visual C++程序设计_01(南昌校区3号教学楼,3-204,刘琳,3-9周上)
+      </view>
+    </view>
+    <view class='td'>        
+    </view>
+    <view class='td'>
+      <view class="box">
+        软件工程_01(南昌校区3号教学楼,3-206,王强,3-10周上)
+      </view>      
+    </view>
+  </view> -->
+</view>
+
+<!-- <view class="weui-cells__title" style='text-align: center;'>注：显示内容不含实验课</view> -->
+<!-- </scroll-view> -->
+ <view style='height: 7px;'></view> 
+<view class="m-box">
+  <view class='m-term'>{{termArray.termString}}</view>
+  <view class="mbox-l">
+    <input class='m-input' placeholder-style='color: #dcdcdc;' value="{{otherClass}}" bindinput='onInputClass' type="text" placeholder="输入班级号" maxlength='10' ></input>  
+  </view>
+  <view class='mbox-r'>
+    <button class="m-btn" hover-class='m-btn-a' bindtap="getOtherClass">确定</button>
+  </view>
+</view>
+
+
+
+<!-- <view class="changeClass_box" wx:if="{{showChange}}"> -->
+<!-- <view hidden animation="{{ani}}" class="changeClass_box" style='position: fixed; top: -50%;'>
+  <view class="weui-cells__title">
+  <view style="color:#515151; display:inline; font-size: 16px;">查看其它班级课表</view>
+  <view bindtap="cancelChange" style='float: right;'><icon type='cancel' size='22'></icon></view>
+  </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">
+                <input value="{{otherClass}}" bindinput='onInputClass' type="text" placeholder="输入班级号" maxlength='10' >
+                </input>          
+            </view>
+        </view>
+    </view>
+
+    <view class="weui-cells__tips">
+      班级号可得是有效的哦！
+    </view>
+
+    <button class="ac-ok" bindtap="getOtherClass">确定</button>
+</view> -->

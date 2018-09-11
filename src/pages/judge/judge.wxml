@@ -1,0 +1,17 @@
+<!--pages/judge/judge.wxml-->
+<view class='title'>
+  一键评教
+</view>
+<view class='content'>
+  本功能可帮助大家通过最简单的方式完成教学评估工作，默认为全部好评。
+</view>
+<view class='content'>
+  操作后，请务必登录官网确认无误。
+</view>
+
+<view class='space'></view>
+
+<view style='margin: 4vw;'>
+  <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+  <view class='btn' hover-class='btn-hover'>开始</view>
+</view>

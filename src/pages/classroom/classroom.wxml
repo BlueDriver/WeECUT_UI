@@ -1,0 +1,117 @@
+<!--pages/classroom/classroom.wxml-->
+
+<view>
+  <view class='title'>
+    空教室查询
+  </view>
+  <view class='content'>
+    找一个教室认真地学习。
+  </view>
+</view>
+
+
+
+<view hidden>
+
+  <view style='margin: 8vw 0vw 0vw 4vw;'>
+    <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+    <view class='btn' hover-class='btn-hover'>重新查找</view>
+  </view>
+  <view class='space'></view>
+  <view class='option-box'>
+    <view class='option-item option-now'>南昌校区</view>
+    <view class='option-item option-now'>3教楼</view>
+    <view class='option-item option-now'>第2周</view>
+    <view class='option-item option-now'>周五</view>
+    <view class='option-item option-now'>5-6节</view>
+  </view>
+
+</view>
+
+
+
+
+
+
+<view>
+  <view class='space'></view>
+  <view class='option-box'>
+    <view class='option-item option-active'>南昌校区</view>
+    <view class='option-item'>南昌枫林</view>
+    <view class='option-item'>抚州本部</view>
+    <view class='option-item'>抚州北区</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item  option-active'>3教楼</view>
+    <view class='option-item'>软件楼</view>
+    <view class='option-item'>图书馆B栋</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item'>第1周</view>
+    <view class='option-item  option-active'>第10周</view>
+    <view class='option-item'>第11周</view>
+    <view class='option-item'>第22周</view>
+    <view class='option-item'>第21周</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item'>周一</view>
+    <view class='option-item  option-active'>周二</view>
+    <view class='option-item'>周三</view>
+    <view class='option-item'>周四</view>
+    <view class='option-item'>周五</view>
+  </view>
+
+  <view class='option-box'>
+    <view class='option-item'>1-2节</view>
+    <view class='option-item option-active'>3-4节</view>
+    <view class='option-item'>5-6节</view>
+    <view class='option-item'>7-8节</view>
+    <view class='option-item'>9-X节</view>
+  </view>
+
+  <view style='margin: 4vw;'>
+    <!-- <view class='btn' hover-class='btn-hover'>重置</view> -->
+    <view class='btn' hover-class='btn-hover'>确定</view>
+  </view>
+
+</view>
+
+
+<view class='box'>
+
+
+  <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>无</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-title'>暂无数据</view>
+      <view class='item-date'>好像还什么都没有</view>
+    </view>
+  </view>
+
+  <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>888</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-title'>3-308</view>
+      <view class='item-date'>多媒体教室：座位110</view>
+    </view>
+  </view>
+
+  <view class='item' hover-class='item-hover'>
+    <view class='item-left'>
+      <view class='item-index'>1</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-title'>3-308</view>
+      <view class='item-date'>多媒体教室</view>
+    </view>
+  </view>
+
+
+</view>

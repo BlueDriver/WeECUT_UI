@@ -1,0 +1,37 @@
+<!--pages/more/more.wxml-->
+<view class='title'>
+  MORE
+</view>
+<view class='content'>
+  其他的选项。
+</view>
+<view class='space'></view>
+<view class='box'>
+  <view class='item' hover-class='item-hover'>
+    <image style='background-color: #62a8d9;' class='item-icon' src='../../resource/images/auto.png' mode='aspectFit'></image>
+    <view class='item-text'>自动登录</view>
+     <view class='status-on'>ON</view> 
+    <!-- <view class='status-off'>OFF</view> -->
+  </view>
+
+ <view class='item' hover-class='item-hover'>
+    <image style='background-color: #66b266;' class='item-icon' src='../../resource/images/clear.png' mode='aspectFit'></image>
+    <view class='item-text'>清除缓存</view>
+  </view>
+
+   <view class='item' hover-class='item-hover'>
+    <image style='background-color: #eb4f40;' class='item-icon' src='../../resource/images/log.png' mode='aspectFit'></image>
+    <view class='item-text'>开发日志</view>
+  </view>
+
+   <view class='item' hover-class='item-hover'>
+    <image style='background-color: #ffd349;' class='item-icon' src='../../resource/images/feedback.png' mode='aspectFit'></image>
+    <view class='item-text'>意见反馈</view>
+  </view>
+
+  <view class='item' hover-class='item-hover'>
+    <image style='background-color: #333333;' class='item-icon' src='../../resource/images/git.png' mode='aspectFit'></image>
+    <view style='font-size: 4vw;' class='item-text'>https://github.com/BlueDriver</view>
+  </view>
+
+</view>

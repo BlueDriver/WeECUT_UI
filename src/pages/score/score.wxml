@@ -1,0 +1,45 @@
+<!--pages/scoreNew/score.wxml-->
+<scroll-view class="sc-box" scroll-x>
+  <!-- <view  class="sc-item">2017-2018第二学期</view>
+  <view class="sc-item sc-item-a">2017-2018第二学期</view> -->
+  <block wx:for="{{data}}" wx:key="{{index}}">
+    <view bindtap='termChange' id="{{index}}" class="sc-item {{now==index?'sc-item-a':''}}">{{item.term}}</view>
+  </block>
+</scroll-view>
+
+<!-- <view class='btn-box'>
+  <button bindtap="refresh" class='btn' hover-class='btn-a'>更新</button>
+</view> -->
+
+
+<!--pages/classTable/classTable.wxml-->
+<view class="table" wx:if="{{data.length != 0}}">
+  <view class="tr bg-w">
+    <!-- <view class="td-2">序号</view>    -->
+    <view class="td-1">课程</view>
+    <view class="td-2">属性</view>
+    <view class="td-2">学分</view>
+    <view class="td-2">成绩</view>
+  </view>
+  <block wx:for="{{data[now].scoreList}}" wx:key="{{index}}">
+    <view class="tr bg-g">
+      <!-- <view class="td-2" selectable="true">{{index+1}}</view>      -->
+      <view class="td-1" selectable="true">{{item.name}}</view>
+      <view class="td-2" selectable="true">{{item.type}}</view>
+      <view class="td-2" selectable="true">{{item.point}}</view>
+      <view class="td-2" selectable="true">{{item.score}}</view>
+      <!--view class="td">{{item.type}}</view-->
+    </view>
+
+  </block>
+
+  <view class='btn-box'>
+    <button bindtap="refresh" class='btn' hover-class='btn-a'>更新</button>
+  </view>
+</view>
+<!-- <view style='height: 60px;'></view> -->
+
+<view class="no-data-box" wx:if="{{data.length == 0}}">
+  <!-- <image class='empty-img' src="../../img/no-data.png"></image> -->
+  <view>暂无数据</view>
+</view>

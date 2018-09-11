@@ -1,0 +1,28 @@
+/**app.wxss**/
+page{
+  background-color: red;
+}
+.container {
+  /* background-color: aqua; */
+  display: flex;
+  /* flex-direction: column; default*/
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+view, open-data {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.1s;
+  /* transform-origin: 50% 100%; */
+}
+.n-text{
+  font-size: 4vw;
+  line-height: 6vw;
+  color: #ffffff;
+}
+
+.item-hover {
+  background-color: #317dd5;
+}

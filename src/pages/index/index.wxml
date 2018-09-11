@@ -1,0 +1,107 @@
+<!--pages/index/index.wxml-->
+<view class='container box'>
+
+  <view class="grid44" style='display: flex; flex-flow: row wrap;'>
+    <open-data type="userAvatarUrl"></open-data>
+    <view class='n-text t-info'>
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+
+  <view bindtap='iconHandler' data-func='login' hover-class='view-hover' class='grid84' style='background-color: #f29500;'>
+    <view class='t-name'>未登录</view>
+    <view class='t-tip'>点击登录解锁所有功能</view>
+  </view>
+
+
+  <view bindtap='iconHandler' data-func='courseTable' hover-class='view-hover' style='background-color: #6fa014;' class="grid44">
+    <image class='icon' src='../../resource/images/schedule.png' mode='aspectFit'></image>
+    <view class='func-text'>课表</view>
+  </view>
+
+  <view bindtap='iconHandler' data-func='score' hover-class='view-hover' style='background-color: #0097aa;' class="grid44">
+    <image class='icon' src='../../resource/images/score.png' mode='aspectFit'></image>
+    <view class='func-text'>成绩</view>
+  </view>
+
+  <!--  http://119.23.71.59/static/image/2018201901_term.jpg  -->
+
+  <view bindtap='viewImage' data-url='http://119.23.71.59/static/image/2018201901_term.jpg' hover-class='view-hover' class="grid44 move-bg" style='background: #c23916 url(http://119.23.71.59/static/image/2018201901_term.jpg) no-repeat;'>
+    <view class='func-text' style='background: rgba(6, 6, 6, 0.4); margin-top: 22vw;'>校历</view>
+  </view>
+
+
+  <view bindtap='iconHandler' data-func='classroom' hover-class='view-hover' style='background-color: #be213e;' class="grid44">
+    <image class='icon' src='../../resource/images/classroom.png' mode='aspectFit'></image>
+    <view class='func-text'>空教室</view>
+  </view>
+
+  <view bindtap='iconHandler' data-func='rubClass' hover-class='view-hover' style='background-color: #94c849;' class="grid44">
+    <image class='icon' src='../../resource/images/study.png' mode='aspectFit'></image>
+    <view class='func-text'>蹭课</view>
+  </view>
+
+  <view bindtap='iconHandler' data-func='judge' hover-class='view-hover' style='background-color: #3c7780;' class="grid44">
+    <image class='icon' src='../../resource/images/write.png' mode='aspectFit'></image>
+    <view class='func-text'>一键评教</view>
+  </view>
+
+  <!-- <view bindtap='iconHandler' data-func='notebook' hover-class='view-hover' style='background-color: #0097aa;' class="grid44">
+    <image class='icon' src='../../resource/images/notebook.png' mode='aspectFit'></image>
+    <view class='func-text'>云笔记</view>
+  </view> -->
+
+  <view bindtap='iconHandler' data-func='jogFind' hover-class='view-hover' style='background-color: #00aced;' class="grid44">
+    <image class='icon' src='../../resource/images/recruit.png' mode='aspectFit'></image>
+    <view class='func-text'>校招</view>
+  </view>
+
+  <view bindtap='iconHandler' data-func='more' hover-class='view-hover' style='background-color: #91009b;' class="grid44">
+    <image class='icon' src='../../resource/images/more.png' mode='aspectFit'></image>
+    <view class='func-text'>更多</view>
+  </view>
+
+
+
+  <!-- <view hover-class='view-hover' style='background-color: #3b5b99;' class="grid44">
+    <image class='icon' src='../../resource/images/more.png' mode='aspectFit'></image>
+    <view class='func-text'>更多</view>
+  </view> -->
+
+
+  <!-- <view class='grid88'>6</view> -->
+
+  <!-- <view class='container' style='flex-direction: column;'>
+    <view class="grid44">7</view>
+    <view class="grid44">8</view>
+  </view>  -->
+
+  <!-- <view class="grid44">8</view> -->
+
+  <!-- <view class='grid104'>
+    9
+  </view> -->
+
+  <!-- <view class='grid22'>10</view> -->
+  <!-- <view class="grid44">10</view> -->
+  <view class='container' style='flex: 1;'>
+    <view bindtap='iconHandler' data-func='notify' hover-class='view-hover' class='grid22' style='background-color: #3b5b99'>
+      <image class='icon-s' src='../../resource/images/notify.png' mode='aspectFit'></image>
+    </view>
+    <view data-url='http://i-code.top/static/image/zanshang.png' bindtap='viewImage' hover-class='view-hover' class='grid22' style='background-color: #c23916'>
+      <image class='icon-s' src='../../resource/images/admire.png' mode='aspectFit'></image>
+    </view>
+    <view bindtap='iconHandler' data-func='hedp' hover-class='view-hover' class='grid22' style='background-color: #232323'>
+      <image class='icon-s' src='../../resource/images/help.png' mode='aspectFit'></image>
+    </view>
+     <view bindtap='iconHandler' data-func='more' hover-class='view-hover' class='grid22' style='background-color: #d9b700'>
+      <image class='icon-s' src='../../resource/images/qrcode.png' mode='aspectFit'></image>
+    </view>
+
+  </view>
+
+  <ad wx:if="{{showAD}}" binderror='adError' style='margin: 0px 4vw 4vw 0px;' unit-id="adunit-cfc131939740c9db"></ad>
+
+  <view class='foot-text'>WeECUT</view>
+
+</view>

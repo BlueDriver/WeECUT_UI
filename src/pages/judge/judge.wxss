@@ -1,0 +1,2 @@
+/* pages/judge/judge.wxss */
+@import '../feedback/feedback.wxss';
